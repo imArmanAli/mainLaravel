@@ -1,0 +1,48 @@
+.thumbnail {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    min-width: 40%;
+    border-radius: 5px;
+    background-color: #e7212100;
+}
+
+.thumbnail-description {
+    min-height: 40px;
+}
+
+.thumbnail:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+}
+
+body {
+    background: gray;
+}
+
+.modal {
+    background: none;
+    position: absolute;
+    float: left;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.panel-title {
+    display: inline;
+    font-weight: bold;
+}
+
+.display-table {
+    display: table;
+}
+
+.display-tr {
+    display: table-row;
+}
+
+.display-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 61%;
+}
